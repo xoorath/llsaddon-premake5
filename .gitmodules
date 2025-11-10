@@ -1,3 +1,0 @@
-[submodule "premake-core"]
-	path = premake-core
-	url = https://github.com/premake/premake-core.git
