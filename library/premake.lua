@@ -2,7 +2,7 @@
 
 --- @class premake Base definitions required by all the other scripts.
 --- @copyright 2002-2015 Jess Perkins and the Premake project
-premake = {}
+local premake = {}
 
 premake._VERSION = "5.0.0-dev"
 premake.modules = {}
@@ -198,3 +198,5 @@ function filelineinfo(level) end
 --- @param version string
 --- @return boolean
 function premake.isSemVer(version) end
+
+return premake
