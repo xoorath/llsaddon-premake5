@@ -198,5 +198,3 @@ function filelineinfo(level) end
 --- @param version string
 --- @return boolean
 function premake.isSemVer(version) end
-
-return premake

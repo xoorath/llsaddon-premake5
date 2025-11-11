@@ -165,5 +165,3 @@ function project.systemversion(prj) end
 --- @return unknown
 ---    The usage object with the specified name or nil if not found.
 function project.findusage(self, name) end
-
-return project
